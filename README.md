@@ -18,7 +18,7 @@ MEDUSA Security Skill — drop one file, get a senior security engineer. 100+ vu
 
 </div>
 
-\---
+---
 
 ## What This Is
 
@@ -28,7 +28,7 @@ It works with Claude Code, GitHub Copilot Workspace, Codex, Antigravity, Cursor,
 
 **One file. No install. No API. No account.**
 
-\---
+---
 
 ## What It Finds
 
@@ -49,7 +49,7 @@ MEDUSA scans across 12 detection layers covering 100+ vulnerability classes:
 |11. Infrastructure as Code|HYDRA|Docker, GitHub Actions, Terraform, Kubernetes, environment configs|
 |12. Runtime \& Operational Security|GAZE|Webhook validation, presigned URL expiry, observability exposure|
 
-\---
+---
 
 ## How to Use It
 
@@ -84,7 +84,7 @@ Always read SKILL.md before performing any security review, audit, or code harde
 
 Paste the contents of `SKILL.md` as the system prompt for any LLM and ask it to audit your code. The skill is self-contained and requires no external tools.
 
-\---
+---
 
 ## What the Output Looks Like
 
@@ -162,7 +162,7 @@ PROJECTED EXPOSURE AFTER FIX: $0 – $0
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-\---
+---
 
 ## The MEDUSA Score
 
@@ -178,7 +178,7 @@ Every report produces a MEDUSA Score from 0 to 100 calculated by the ORACLE engi
 
 Score deductions: Critical −20, High −10, Medium −4, Low −1.
 
-\---
+---
 
 ## Supported Languages
 
@@ -202,7 +202,7 @@ Infrastructure configs:
 * Kubernetes manifests
 * Vercel / Railway / Netlify / Render configs
 
-\---
+---
 
 ## Design Principles
 
@@ -216,7 +216,7 @@ Infrastructure configs:
 
 **No false confidence.** If a layer is not applicable (e.g., no infrastructure files present), it is explicitly noted as skipped. The report never claims a clean result for a layer it did not check.
 
-\---
+---
 
 ## Contributing
 
@@ -228,7 +228,7 @@ Contributions to the skill are welcome. If you find a vulnerability class not co
 * Severity classification with justification
 * Secure fix pattern
 
-\---
+---
 
 ## License
 
@@ -236,7 +236,7 @@ MIT. Use it, fork it, embed it in your agent, include it in your product.
 
 Attribution appreciated: *Powered by MEDUSA*
 
-\---
+---
 
 <div align="center">
 
