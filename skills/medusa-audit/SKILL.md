@@ -11,24 +11,23 @@ dependency CVEs, runtime safety, API security, AI/LLM attack vectors, and infras
 Produces structured findings with severity, CWE, financial breach cost estimate, attack scenario,
 and a diff-ready code fix for every issue found. Never skips. Never summarizes without fixing.
 triggers:
-
-* "audit my code"
-* "find vulnerabilities"
-* "security review"
-* "harden this codebase"
-* "scan for secrets"
-* "fix security issues"
-* "what's wrong with my security"
-* "check for exposed keys"
-* "secure this"
-* "run MEDUSA"
-* "find bugs"
-* "security audit"
-* "pentest this"
-* "what can go wrong"
-* "review this for security"
-* "check this code"
-* "find all issues"
+- "audit my code"
+- "find vulnerabilities"
+- "security review"
+- "harden this codebase"
+- "scan for secrets"
+- "fix security issues"
+- "what's wrong with my security"
+- "check for exposed keys"
+- "secure this"
+- "run MEDUSA"
+- "find bugs"
+- "security audit"
+- "pentest this"
+- "what can go wrong"
+- "review this for security"
+- "check this code"
+- "find all issues"
 
 ---
 
