@@ -1,34 +1,32 @@
 ---
-
 name: medusa-security
 version: 1.0.0
 author: Medusa
 description: >
-Full-spectrum security vulnerability detection and auto-remediation skill for AI coding agents.
-Invoke when asked to audit, secure, review, scan, or harden any codebase, file, snippet, or config.
-Covers 100+ vulnerability classes across secrets exposure, SAST, logic bugs, micro-vulnerabilities,
-dependency CVEs, runtime safety, API security, AI/LLM attack vectors, and infrastructure misconfigurations.
-Produces structured findings with severity, CWE, financial breach cost estimate, attack scenario,
-and a diff-ready code fix for every issue found. Never skips. Never summarizes without fixing.
+  Full-spectrum security vulnerability detection and auto-remediation skill for AI coding agents.
+  Invoke when asked to audit, secure, review, scan, or harden any codebase, file, snippet, or config.
+  Covers 100+ vulnerability classes across secrets exposure, SAST, logic bugs, micro-vulnerabilities,
+  dependency CVEs, runtime safety, API security, AI/LLM attack vectors, and infrastructure misconfigurations.
+  Produces structured findings with severity, CWE, financial breach cost estimate, attack scenario,
+  and a diff-ready code fix for every issue found. Never skips. Never summarizes without fixing.
 triggers:
-- "audit my code"
-- "find vulnerabilities"
-- "security review"
-- "harden this codebase"
-- "scan for secrets"
-- "fix security issues"
-- "what's wrong with my security"
-- "check for exposed keys"
-- "secure this"
-- "run MEDUSA"
-- "find bugs"
-- "security audit"
-- "pentest this"
-- "what can go wrong"
-- "review this for security"
-- "check this code"
-- "find all issues"
-
+  - "audit my code"
+  - "find vulnerabilities"
+  - "security review"
+  - "harden this codebase"
+  - "scan for secrets"
+  - "fix security issues"
+  - "what's wrong with my security"
+  - "check for exposed keys"
+  - "secure this"
+  - "run MEDUSA"
+  - "find bugs"
+  - "security audit"
+  - "pentest this"
+  - "what can go wrong"
+  - "review this for security"
+  - "check this code"
+  - "find all issues"
 ---
 
 # MEDUSA Security Skill v1.0
