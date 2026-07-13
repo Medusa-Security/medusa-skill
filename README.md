@@ -93,14 +93,15 @@ See **[USAGE.md](./USAGE.md)** for the complete catalog.
 
 | Category | Skills |
 |-----------|---------|
-| 🔒 Security | medusa-security • forge • aegis • nemesis • phantom • cipher • sentinel • singularity |
+| 🔒 Security | medusa-security • forge • aegis • nemesis • phantom • cipher • sentinel • singularity • ares |
 | 🧠 AI Research | axiom • daedalus |
-| ⚙️ Backend | hermes |
+| ⚙️ Backend & Data | hermes • demeter • athena |
 | 🦀 Rust | vulcan |
 | 🎨 Frontend | forma |
 | 📚 Documentation | docsight |
-| 🏗 Architecture | bedrock • cassandra • provenance |
+| 🏗 Architecture & Cloud | bedrock • cassandra • provenance • apollo • prometheus • midas |
 | 📈 Quantitative Finance | tyche |
+| 🛠️ Code Review & Agent Tools | momus • mnemosyne |
 
 📖 See **[USAGE.md](./USAGE.md)** for installation commands for every skill.
 
@@ -158,7 +159,7 @@ Attribution appreciated: *Powered by MEDUSA*
 
 Built by Medusa Security
 
-18 production-grade AI coding agent skills.
+26 production-grade AI coding agent skills.
 One repository.
 Install only what you need.
 
